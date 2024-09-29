@@ -1,0 +1,33 @@
+;;Headlight source;;
+CreateMeshBuilder,
+AddVertex, 0.8, 0.718, -0.001,
+AddVertex, 0.8, 1.900, -0.001,
+AddVertex,-0.8, 1.900, -0.001,
+AddVertex,-0.8, 0.718, -0.001,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,headlight.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.58,
+SetTextureCoordinates,2,-1,0.58,
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,255,255,255,
+RotateAll,0,1,0,180
+TranslateAll,0,0,10
+
+;;Headlight;;
+CreateMeshBuilder,
+AddVertex, 1.75,-0.05, 5.75,
+AddVertex, 1.75,-0.05, 1.25,
+AddVertex,-0.9, -0.05, 1.25,
+AddVertex,-0.9, -0.05, 5.75,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,headlight1.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1,
+translate,-0.45,0.1,10

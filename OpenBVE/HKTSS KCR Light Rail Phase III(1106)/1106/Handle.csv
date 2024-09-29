@@ -1,0 +1,14 @@
+CreateMeshBuilder,
+Cylinder, 4,0.02,0.02,2.6
+GenerateNormals,
+LoadTexture,handle.png
+SetTextureCoordinates, 0, 1.8, 0,
+SetTextureCoordinates, 1, 1.8, 1,
+SetTextureCoordinates, 2, 1.9, 0,
+SetTextureCoordinates, 3, 1.9, 1,
+SetTextureCoordinates, 4, 2, 0,
+SetTextureCoordinates, 5, 2, 1,
+SetTextureCoordinates, 6, 1, 0,
+SetTextureCoordinates, 7, 1, 1,
+SetEmissiveColor,255,255,255
+translate,-0.025,2.1,0

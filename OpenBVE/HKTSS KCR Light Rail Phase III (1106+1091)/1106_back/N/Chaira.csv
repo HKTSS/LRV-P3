@@ -1,0 +1,165 @@
+
+
+;;1;;
+CreateMeshBuilder,
+AddVertex, 0.1, 0.75, 0.03,
+AddVertex, 0.1, 1, -0.01,
+AddVertex, 0.5, 1, -0.01,
+AddVertex, 0.5, 0.75, 0.03,
+AddFace2,0,1,2,3
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,chair.png
+SetTextureCoordinates,0,0,0.25,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,0.25,
+
+;;2;;
+CreateMeshBuilder,
+AddVertex, 0.1, 0.315, 0.199,
+AddVertex, 0.1, 0.75, 0.03,
+AddVertex, 0.5, 0.75, 0.03,
+AddVertex, 0.5, 0.315, 0.199,
+AddFace2,0,1,2,3
+GenerateNormals,
+LoadTexture,chair.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates,0,0,0.85,
+SetTextureCoordinates,1,0,0.25,
+SetTextureCoordinates,2,1,0.25,
+SetTextureCoordinates,3,1,0.85,
+
+;;3;;
+CreateMeshBuilder,
+AddVertex, 0.1, 0.305, 0.20,
+AddVertex, 0.1, 0.315, 0.199,
+AddVertex, 0.5, 0.315, 0.199,
+AddVertex, 0.5, 0.305, 0.20,
+AddFace2,0,1,2,3
+GenerateNormals,
+LoadTexture,chair.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates,0,0,0.90,
+SetTextureCoordinates,1,0,0.85,
+SetTextureCoordinates,2,1,0.85,
+SetTextureCoordinates,3,1,0.90,
+
+;4;;
+CreateMeshBuilder,
+AddVertex, 0.1, 0.300, 0.205,
+AddVertex, 0.1, 0.305, 0.20,
+AddVertex, 0.5, 0.305, 0.20,
+AddVertex, 0.5, 0.300, 0.205,
+AddFace2,0,1,2,3
+GenerateNormals,
+LoadTexture,chair.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates,0,0,0.95,
+SetTextureCoordinates,1,0,0.90,
+SetTextureCoordinates,2,1,0.90,
+SetTextureCoordinates,3,1,0.95,
+
+;;5;;
+CreateMeshBuilder,
+AddVertex, 0.1, 0.295, 0.21,
+AddVertex, 0.1, 0.300, 0.205,
+AddVertex, 0.5, 0.300, 0.205,
+AddVertex, 0.5, 0.295, 0.21,
+AddFace2,0,1,2,3
+GenerateNormals,
+LoadTexture,chair.png
+SetEmissiveColor, 255, 255, 255
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.95,
+SetTextureCoordinates,2,1,0.95,
+SetTextureCoordinates,3,1,1,
+
+
+CreateMeshBuilder,
+AddVertex, 0.1, 0.295, 0.21,
+AddVertex, 0.1, 0.325, 0.5,
+AddVertex, 0.5, 0.325, 0.5,
+AddVertex, 0.5, 0.295, 0.21,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,chairdown.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex, 0.5, 0.75, 0.034,
+AddVertex, 0.5, 0.75, 0.0,
+AddVertex, 0.48, 0.95, -0.002,
+AddVertex, 0.48, 0.95, -0.002,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,10,10,10
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+AddVertex, 0.004, 0.75, 0.034,
+AddVertex, 0.004, 0.75, 0.0,
+AddVertex, 0.02, 0.95, -0.002,
+AddVertex, 0.02, 0.95, -0.002,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,10,10,10
+SetDecalTransparentColor,255,255,255,
+translate,0.1,0,0
+
+CreateMeshBuilder,
+AddVertex, 0.1, -0.085, 0.0,
+AddVertex, 0.1, -0.085, 0.7,
+AddVertex, 0.5, -0.085, 0.7,
+AddVertex, 0.5, -0.085, 0.0,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,chair_shadow.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+
+CreateMeshBuilder,
+AddVertex,0.004, 0.2, 0,
+AddVertex,0.004, 0.75, 0,
+AddVertex,0, 0.75, 0.5
+AddVertex,0, 0.25, 0.5
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,sidechair.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
+translate,0.1,0,0
+
+CreateMeshBuilder,
+AddVertex,0.5, 0.2, 0,
+AddVertex,0.5, 0.75, 0,
+AddVertex,0.5, 0.75, 0.5
+AddVertex,0.5, 0.25, 0.5
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,sidechair.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255,
+
+CreateMeshBuilder,
+Cylinder, 15, 0.02, 0.02, 0.37
+SetColor,100,100,100
+translate, 0.2,0.09,0.35
+
+translateall, 0,-0.1,0

@@ -1,0 +1,828 @@
+[Object]
+States=lrt.csv, N\lrt.csv
+Position = 0,0.1,0
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\pan.csv
+Position = 0,0.1,0
+
+[Object]
+States=..\1106\3dcab\cab.csv
+Position = 0,0.1,0
+
+[object]
+Position = -0.05, 0.0, -1.6
+states=..\1106\wheel\wheel2.csv
+
+[object]
+states=..\1106\wheel\wheel.csv
+Position = -0.20, 0.30, 4.30
+RotateXFunction = value + delta * speedometer / 0.40
+
+[object]
+states=..\1106\wheel\wheel.csv
+Position = -0.20, 0.30, 6.7
+RotateXFunction = value + delta * speedometer / 0.40
+
+[object]
+states=..\1106\wheel\wheel.csv
+Position = -0.20, 0.30, -4.20
+RotateXFunction = value + delta * speedometer / 0.40
+
+[object]
+states=..\1106\wheel\wheel.csv
+Position = -0.20, 0.30, -6.5
+RotateXFunction = value + delta * speedometer / 0.40
+
+[Object]
+States=..\1106\wc.csv, ..\1106\N\WC.csv
+Position = 0.22,0.1,6.4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\fire_ex.csv, ..\1106\N\fire_ex.csv
+Position = 0.08,0.1,0
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\fire_ex.csv, ..\1106\N\fire_ex.csv
+Position = 0.08,0.1,5.4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\wc2.csv, ..\1106\N\WC2.csv
+Position = 0,0.1,1.55
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\wc.csv, ..\1106\N\WC.csv
+Position = 0.22,0.1,0.35
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\wc2.csv, ..\1106\N\WC2.csv
+Position = 0,0.1,-4.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\wc.csv, ..\1106\N\WC.csv
+Position = 0.22,0.1,-4.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\wc2.csv, ..\1106\N\WC2.csv
+Position = 0,0.1,-9.35
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\handle.csv, ..\1106\N\handle.csv
+Position = -0.25,0.1,4.55
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handle.csv, ..\1106\N\handle.csv
+Position = -0.25,0.1,1
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handle.csv, ..\1106\N\handle.csv
+Position = -0.25,0.1,-1
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handle.csv, ..\1106\N\handle.csv
+Position = -0.25,0.1,-4.4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handle.csv, ..\1106\N\handle.csv
+Position = -0.25,0.1,-6.4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\door\doorside.csv, ..\1106\N\door\doorside.csv
+Position = 0,0.1,-0.05
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\door\doorside.csv, ..\1106\N\door\doorside.csv
+Position = 0,0.1,-5.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\door\doorside3.csv, ..\1106\N\door\doorside3.csv
+Position = 0,0.1,-10.9
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\light.csv, ..\1106\N\light.csv
+Position = -0.85,3.32,7.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\light.csv, ..\1106\N\light.csv
+Position = 0.61,3.32,7.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\overhead\rules.csv, ..\1106\N\overhead\rules.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\overhead\routemap.csv, ..\1106\N\overhead\routemap.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\overhead\routemap.csv, ..\1106\N\overhead\routemap.csv
+Position = 0,0,-5.45
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\overhead\routemap.csv, ..\1106\N\overhead\routemap.csv
+Position = 0,0,-10.85
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\door\doorwc.csv, ..\1106\N\door\doorWC.csv
+Position = -0.015,0.1,5.2
+TranslateZFunction = 0.89*if[leftDoors[0]>0.69,1,leftDoors[0]*1.4]
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\door\doorr.csv, ..\1106\N\door\doorR.csv
+Position = -0.015,0.1,5.2
+TranslateZFunction = -0.88*if[leftDoors[0]>0.69,1,leftDoors[0]*1.4]
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\door\doorl.csv, ..\1106\N\door\doorL.csv
+Position = -0.015,0.1,-0.25
+TranslateZFunction = 0.89*if[leftDoors[0]>0.7,1,leftDoors[0]*1.4]
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\door\doorr.csv, ..\1106\N\door\doorR.csv
+Position = -0.015,0.1,-0.25
+TranslateZFunction = -0.87*if[leftDoors[0]>0.7,1,leftDoors[0]*1.4]
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\door\doorl.csv, ..\1106\N\door\doorL.csv
+Position = -0.015,0.1,-5.65
+TranslateZFunction = 0.89*if[leftDoors[0]>0.7,1,leftDoors[0]*1.4]
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\door\doorr.csv, ..\1106\N\door\doorR.csv
+Position = -0.015,0.1,-5.65
+TranslateZFunction = -0.87*if[leftDoors[0]>0.7,1,leftDoors[0]*1.4]
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,7.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,7.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,6.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,6.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.35,1.1,6.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\priorchair.csv, ..\1106\N\PriorChair.csv
+Position = 0.80,1.1,3.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\priorchair.csv, ..\1106\N\PriorChair.csv
+Position = 0.35,1.1,3.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.35,1.1,2.6
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,2.6
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,1.9
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.35,1.1,1.9
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,1.2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.35,1.1,1.2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,0.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.35,1.1,0.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handle.csv, ..\1106\N\handle.csv
+Position = -0.25,0.1,7.09
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,7.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,7
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,6
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,6.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,6.7
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,4.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,6
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,6
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,5.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,5.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,4.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,4.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,1.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,0
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-1.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,2.2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,2.2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,1.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,1.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,1
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,1
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,0.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,0.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-0.2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-0.2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-0.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-0.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-4.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-1
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-1
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-4.7
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-1.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-1.3
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.78,-0.1,-6.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-4.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-4.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.4,-0.1,-5.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-5.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = 0.38,-0.1,-6
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.95,-0.1,-7
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.95,-0.1,-7.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handles.csv, ..\1106\N\Handles.csv
+Position = -0.95,-0.1,-8.0
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handle2.csv, ..\1106\N\Handle2.csv
+Position = 0,0,-5.41
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\handle3.csv, ..\1106\N\Handle3.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\directionlightoffl.csv, ..\1106\DirectionLightonL.csv
+Position = 0,0.1,0
+Statefunction = if[pluginstate[105] == 1, Mod[value + pluginstate[105], 2] ,0]
+RefreshRate = 0.55
+
+[Object]
+States=..\1106\directionlightoffr.csv, ..\1106\DirectionLightonR.csv
+Position = 0,0.1,0
+Statefunction = if[pluginstate[106] == 1, Mod[value + pluginstate[106], 2] ,0]
+RefreshRate = 0.55
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,-2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\priorchair.csv, ..\1106\N\PriorChair.csv
+Position = 0.80,1.1,-2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\priorchair.csv, ..\1106\N\PriorChair.csv
+Position = 0.35,1.1,-2.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,-3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\priorchair.csv, ..\1106\N\PriorChair.csv
+Position = 0.78,1.1,-7.4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,-8.2
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,-7.4
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = -1.35,1.1,-8
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.80,1.1,-3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\chair.csv, ..\1106\N\Chair.csv
+Position = 0.35,1.1,-3.5
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\display\610\yl\display.csv, ..\1106\display\610\FP\display.csv, ..\1106\display\507\TK\display.csv, ..\1106\display\507\FP\display.csv, ..\1106\display\614P\SH\display.csv, ..\1106\display\614P\FP\display.csv, ..\1106\display\751\TY\displ
+Position = 0,-0.085,-0.03
+Statefunction = Mod[value + pluginstate[107], 10]
+RefreshRate = 1
+
+[Object]
+States=..\1106\digit\0.csv, ..\1106\digit\1.csv, ..\1106\digit\2.csv, ..\1106\digit\3.csv, ..\1106\digit\4.csv, ..\1106\digit\5.csv, ..\1106\digit\6.csv, ..\1106\digit\7.csv, ..\1106\digit\8.csv, ..\1106\digit\9.csv
+Position = -0.4,0,-0.04
+Statefunction = Mod[value + pluginstate[102], 10]
+RefreshRate = 1
+
+[Object]
+States=..\1106\digit\0.csv, ..\1106\digit\1.csv, ..\1106\digit\2.csv, ..\1106\digit\3.csv, ..\1106\digit\4.csv, ..\1106\digit\5.csv, ..\1106\digit\6.csv, ..\1106\digit\7.csv, ..\1106\digit\8.csv, ..\1106\digit\9.csv
+Position = -0.545,0,-0.04
+Statefunction = Mod[value + pluginstate[103], 10]
+RefreshRate = 1
+
+[Object]
+States=..\1106\digit\0.csv, ..\1106\digit\1.csv, ..\1106\digit\2.csv, ..\1106\digit\3.csv, ..\1106\digit\4.csv, ..\1106\digit\5.csv, ..\1106\digit\6.csv, ..\1106\digit\7.csv, ..\1106\digit\8.csv, ..\1106\digit\9.csv
+Position = -0.69,0,-0.04
+Statefunction = Mod[value + pluginstate[104], 10]
+RefreshRate = 1
+
+[Object]
+States=..\1106\digit\stack.csv
+Position = -0.4,0,-0.04
+
+[Object]
+States=..\1106\digit\stack.csv
+Position = -0.545,0,-0.04
+
+[Object]
+States=..\1106\digit\stack.csv
+Position = -0.69,0,-0.04
+
+[Object]
+States=..\1106\display\ledinside.csv, ..\1106\N\display\LEDINSIDE.csv
+Position = 0,-0.085,3.9
+Statefunction = if[pluginstate[99] == 1, 1, 0]
+
+[Object]
+States=..\1106\headlight.csv, ..\1106\empty.csv
+Position = 0,0.1,0
+Statefunction = if[pluginstate[100] == 1, 1, 0]
+
+[Object]
+States=..\1106\brakinglight.csv, ..\1106\empty.csv
+Position = 0,0.1,0.01
+Statefunction = if[brakeNotchLinear > 0,0,1]
+
+[Object]
+States=..\1106\reverse.csv, ..\1106\empty.csv
+Position = 0,0.1,0
+Statefunction = if[reverserNotch == -1,0,1]
+
+
+[Object]
+States=..\1106\3dcab\speedo_on.csv, ..\1106\3Dcab\speedo_off.csv
+Position = 0,0,0
+Statefunction = if[pluginstate[101] == 1, 1, 0]
+
+[Object]
+States=..\1106\3dcab\pressure.csv
+Position = 0,0,0
+
+[object]
+states=..\1106\3dcab\brakeneedley.csv
+position = -0.33, 2.028, 9.766
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.3 + abs[mainReservoir] * 0.0000040
+rotateyfunction = -0.8
+rotatezfunction = -0.62
+
+[object]
+states=..\1106\3dcab\brakeneedler.csv
+position = -0.33, 2.028, 9.76
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.75 + abs[brakeCylinder] * 0.0000016
+rotateyfunction = -1.4 + abs[brakeCylinder] * 0.0000001
+rotatezfunction = -1.45
+
+[Object]
+States=..\1106\3dcab\speedo.csv
+Position = -0.19,2.025,9.758
+rotatexdirection = -1, 0, 0
+rotatexfunction = -3.55 + abs[speedometer] * 0.170
+rotateyfunction = -0.8
+rotatezfunction = -1.43
+
+[Object]
+states=..\1106\3dcab\brakelever.csv
+Position = -0.75, 1.80, 9.4
+rotatexfunction = if[powerNotch >= 1, -0.0 * powerNotch, 0.00 * brakeNotchLinear]
+rotatexdirection = -1, 0, 0
+rotatexdamping = 20, 0.8
+
+[Object]
+States=..\1106\3dcab\v.csv
+Position = 0,0,0
+[Object]
+States=..\1106\empty.csv, ..\1106\3Dcab\door.csv
+Position = 0,-0.001,0.0015
+StateFunction= if[leftDoors!= 0, 1, 0]
+
+[Object]
+States=..\1106\empty.csv, ..\1106\3Dcab\dir.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[pluginstate[105] == 1, Mod[value + pluginstate[105], 2] ,0]
+RefreshRate = 0.55
+
+[Object]
+States=..\1106\empty.csv, ..\1106\3Dcab\dir.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[pluginstate[106] == 1, Mod[value + pluginstate[106], 2] ,0]
+RefreshRate = 0.55
+
+[Object]
+States=..\1106\empty.csv, ..\1106\3Dcab\Brake\b1.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[brakeNotch > 0,1,0]
+
+[Object]
+States=..\1106\empty.csv, ..\1106\3Dcab\Brake\b2.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[brakeNotch > 2,1,0]
+
+[Object]
+States=..\1106\empty.csv, ..\1106\3Dcab\Brake\b3.csv
+Position = 0,-0.003,-0.001
+StateFunction= if[brakeNotch > 4,1,0]
+

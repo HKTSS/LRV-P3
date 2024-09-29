@@ -1,0 +1,71 @@
+CreateMeshBuilder,
+AddVertex,0.6, 1.82,  0.12,
+AddVertex,0.75, 1.82, 0.12,
+AddVertex,1.32,1.82, 1.85,
+AddVertex,0.6,1.82, 1.85,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,panel2.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.79, 1.82,  0.12,
+AddVertex,0.75, 1.82, 0.12,
+AddVertex,0.85,1.82, 0.55,
+AddVertex,-0.89,1.82, 0.55,
+AddFace2,0, 1, 2, 3,
+SetColor,10,10,10
+
+CreateMeshBuilder,
+AddVertex,-0.45, 2.15,  0.3,
+AddVertex,0.6, 2.15, 0.3,
+AddVertex,0.6,1.86, 0.55,
+AddVertex,-0.45,1.86, 0.55,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,panel.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.45, 2.15,  0.3,
+AddVertex,-0.70, 2.15, 0.35,
+AddVertex,-0.70,1.84, 0.6,
+AddVertex,-0.45,1.86, 0.55,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,panel3.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,144,181,
+
+CreateMeshBuilder,
+AddVertex,-0.70, 2.15,  0.35,
+AddVertex,-0.90, 2.15, 0.90,
+AddVertex,-0.80,1.84, 1.01,
+AddVertex,-0.59,1.85, 0.57,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,panel4.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0,
+SetTextureCoordinates,3,1,1
+SetDecalTransparentColor,0,144,181,
+
+;;
+RotateAll,0,1,0,180
+TranslateAll,0,-0.1,10.1

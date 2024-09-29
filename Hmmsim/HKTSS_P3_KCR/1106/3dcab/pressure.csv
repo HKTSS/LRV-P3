@@ -1,0 +1,15 @@
+CreateMeshBuilder,
+AddVertex,-0.08 ,  2.013 , -0.71 ,0,1,0
+AddVertex,-0.29 ,  2.013 , -0.71 ,0,1,0
+AddVertex,-0.29 ,  1.85 , -0.896 ,0,1,0
+AddVertex,-0.08 ,  1.85 , -0.896 ,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,pressuremeter.bmp
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,-1,
+Rotate,0,1,0,180
+translate,0.14,0.09,-10.572
+RotateAll,0,1,0,180

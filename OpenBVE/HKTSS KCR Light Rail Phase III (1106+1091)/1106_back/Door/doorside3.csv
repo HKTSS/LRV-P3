@@ -1,0 +1,160 @@
+CreateMeshBuilder,
+AddVertex,1.2, 0.80, 5.5,
+AddVertex,1.2, 2.87, 5.5,
+AddVertex,1.2, 2.87, 5.65,
+AddVertex,1.2, 0.80, 5.65,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,doorside.png
+SetTextureCoordinates,0,-0,1,
+SetTextureCoordinates,1,-0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,0,255,
+translate,-0.02,0,-1.95
+
+CreateMeshBuilder,
+AddVertex, 1.35, 0.80, 3.75,
+AddVertex, 1.35, 2.87, 3.75,
+AddVertex, 1.18, 2.87, 3.75,
+AddVertex, 1.18, 0.80, 3.75,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,doorborder.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+translate,0,0,-0.05
+
+CreateMeshBuilder,
+AddVertex, 1.35, 1.47, 3.75,
+AddVertex, 1.35, 2.55, 3.75,
+AddVertex, 1.25, 2.55, 3.75,
+AddVertex, 1.25, 1.47, 3.75,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,handle.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,0,255,
+translate,-0.17,0,-0.12
+
+CreateMeshBuilder,
+AddVertex, 1.32, 1.51, 3.6,
+AddVertex, 1.32, 2.2, 3.6,
+AddVertex, 1.15, 2.2, 3.6,
+AddVertex, 1.15, 1.51, 3.6,
+;AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255,255,255
+LoadTexture,handle.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,144,181,
+translate,-0.17,0,0
+
+CreateMeshBuilder,
+AddVertex, 1.32, 1.56, 3.6,
+AddVertex, 1.32, 2.25, 3.6,
+AddVertex, 1.15, 2.25, 3.6,
+AddVertex, 1.15, 1.56, 3.6,
+;AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255,255,255
+LoadTexture,handle.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,144,181,
+translate,-0.17,0,2.01
+
+CreateMeshBuilder,
+AddVertex, 1.35, 0.80,5.5,
+AddVertex, 1.35, 2.87, 5.5,
+AddVertex, 1.2,2.87,5.5,
+AddVertex, 1.2,0.80,5.5,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255,255,255
+LoadTexture,side.png
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+translate,-0.02,0,-1.95
+
+CreateMeshBuilder,
+AddVertex,1.2, 0.80, 5.45,
+AddVertex,1.2, 2.87, 5.45,
+AddVertex,1.2, 2.87, 5.6,
+AddVertex,1.2, 0.80, 5.6,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255,255,255
+LoadTexture,doorside2.png
+SetTextureCoordinates,0,-0,1,
+SetTextureCoordinates,1,-0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,0,255,
+translate,-0.02,0,0.015
+
+CreateMeshBuilder,
+AddVertex, 1.4, 0.80, 5.45,
+AddVertex, 1.4, 2.87, 5.45,
+AddVertex, 1.23, 2.87, 5.45,
+AddVertex, 1.23, 0.80, 5.45,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,doorborder.png,doorborder.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0.99,0
+SetTextureCoordinates,3,0.99,1,
+SetDecalTransparentColor,0,0,255,
+translate,-0.05,0,0.015
+
+CreateMeshBuilder,
+AddVertex, 1.35, 1.74, 3.75,
+AddVertex, 1.35, 2.195, 3.75,
+AddVertex, 1.25, 2.195, 3.75,
+AddVertex, 1.25, 1.74, 3.75,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor,255,255,255
+LoadTexture,handle.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,-1,0
+SetTextureCoordinates,3,-1,1,
+SetDecalTransparentColor,0,0,255,
+translate,-0.17,0,1.79
+
+CreateMeshBuilder,
+AddVertex, 1.4, 0.80, 5.6,
+AddVertex, 1.4, 2.87, 5.6,
+AddVertex, 1.23, 2.87, 5.6,
+AddVertex, 1.23, 0.80, 5.6,
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,side.png,side.png,
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,0,0,255,
+translate,-0.05,0,0.015
+
+RotateAll,0,1,0,180
+TranslateAll,0.02,0,9.99

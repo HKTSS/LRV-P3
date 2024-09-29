@@ -1,0 +1,67 @@
+CreateMeshBuilder,
+AddVertex, 0.8, 3.113, 0.17,
+AddVertex, 0.8, 3.473, 0.20,
+AddVertex,-0.8, 3.473, 0.20,
+AddVertex,-0.8, 3.113, 0.17,
+AddFace2,3,2,1,0,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,front.bmp
+SetTextureCoordinates,0,0,0,
+SetTextureCoordinates,1,0,-1,
+SetTextureCoordinates,2,-1,-1,
+SetTextureCoordinates,3,-1,0,
+
+CreateMeshBuilder,
+AddVertex, 0.26, 3.26, 20.315,
+AddVertex, 0.26, 3.5, 20.315,
+AddVertex,-0.27, 3.5, 20.315,
+AddVertex,-0.27, 3.26, 20.315,
+AddFace,0, 1, 2, 3,
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,..\b.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+Translate, 0,0.01,-0.23
+
+
+CreateMeshBuilder,
+AddVertex,1.33, 2.635, 13.05,
+AddVertex,1.33, 2.86, 13.05,
+AddVertex,1.33, 2.86, 14.28,
+AddVertex,1.33, 2.635, 14.28,
+AddFace,0, 1, 2, 3,
+SetEmissiveColor, 255, 255, 255
+GenerateNormals,
+LoadTexture,left.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0.05,
+SetTextureCoordinates,2,1,0.05
+SetTextureCoordinates,3,1,1,
+translate,0.0,-0.005,-0.107
+
+RotateAll,0,1,0,180
+TranslateAll,0,0,10
+
+CreateMeshBuilder,
+AddVertex,-1.23, 3.11, 0.095,
+AddVertex,-1.23, 3.205, 0.095,
+AddVertex,-1.23, 3.205,  1.22
+AddVertex,-1.23, 3.11, 1.22
+AddFace,0,1,2,3
+GenerateNormals,
+LoadTexture,inside.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetEmissiveColor,255,255,255
+Translate,0,-0.35,-4.22
+
+Translateall,0,0,-0.08
+
+
+

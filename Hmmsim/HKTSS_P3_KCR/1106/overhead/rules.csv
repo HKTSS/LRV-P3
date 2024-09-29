@@ -1,0 +1,159 @@
+CreateMeshBuilder
+AddVertex, -0.91, 3.0, 7.85
+AddVertex, -1.165, 3.30, 7.85
+AddVertex, -1.165, 3.30, 7.05
+AddVertex, -0.91, 3.0, 7.05
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,ticket_info.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,2.078,0,0
+
+CreateMeshBuilder
+AddVertex, -1.165, 3.0, 7.05
+AddVertex, -0.905, 3.30, 7.05
+AddVertex, -0.905, 3.30, 7.85
+AddVertex, -1.165, 3.0, 7.85
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,passen_rules.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder
+AddVertex, -1.083, 3.1, 7.86
+AddVertex, -0.91, 3.29, 7.86
+AddVertex, -0.91, 3.29, 8.02
+AddVertex, -1.083, 3.1, 8.02
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,cctv_sticker.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder
+AddVertex, -0.98, 3.08, 7.03
+AddVertex, -1.10, 3.21, 7.03
+AddVertex, -1.10, 3.21, 6.81
+AddVertex, -0.98, 3.08, 6.81
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,speaker.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,2.078,0,-10.60
+
+
+
+CreateMeshBuilder
+AddVertex, -0.91, 3.0, 7.85
+AddVertex, -1.165, 3.30, 7.85
+AddVertex, -1.165, 3.30, 7.05
+AddVertex, -0.91, 3.0, 7.05
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,passen_rules.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,2.078,0,-15.05
+
+CreateMeshBuilder
+AddVertex, -0.98, 3.08, 7.03
+AddVertex, -1.10, 3.21, 7.03
+AddVertex, -1.10, 3.21, 6.81
+AddVertex, -0.98, 3.08, 6.81
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,speaker.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,2.078,0,-15.05
+
+CreateMeshBuilder
+AddVertex, -1.165, 3.0, 7.05
+AddVertex, -0.905, 3.30, 7.05
+AddVertex, -0.905, 3.30, 7.85
+AddVertex, -1.165, 3.0, 7.85
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,ticket_info.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,0,0,-15.05
+
+CreateMeshBuilder
+AddVertex, -1.10, 3.08, 6.81
+AddVertex, -0.98, 3.21, 6.81
+AddVertex, -0.98, 3.21, 7.03
+AddVertex, -1.10, 3.08, 7.03
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,speaker.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,0,0,-15.05
+
+CreateMeshBuilder
+AddVertex, -1.20, 2.97, 7.05
+AddVertex, -0.905, 3.30, 7.05
+AddVertex, -0.905, 3.30, 7.405
+AddVertex, -1.20, 2.97, 7.405
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,cube_border.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,0,0,-15.7
+
+CreateMeshBuilder
+AddVertex, -0.885, 2.97, 7.404
+AddVertex, -1.172, 3.311, 7.404
+AddVertex, -1.172, 3.311, 7.05
+AddVertex, -0.885, 2.97, 7.05
+AddFace, 0, 1, 2, 3
+GenerateNormals
+SetEmissiveColor, 255, 255, 255
+LoadTexture,cube_border.bmp
+SetTextureCoordinates, 0, 0, 1
+SetTextureCoordinates, 1, 0, 0
+SetTextureCoordinates, 2, 1, 0
+SetTextureCoordinates, 3, 1, 1
+SetDecalTransparentColor,255,255,255
+translate,2.078,0,-15.7

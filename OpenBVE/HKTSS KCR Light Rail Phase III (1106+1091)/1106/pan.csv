@@ -1,0 +1,150 @@
+CreateMeshBuilder
+Cylinder, 15, 0.04, 0.04, 0.25,
+Translate, -0.45, 3.626, 3.05,
+SetColor,135,44,34,
+
+CreateMeshBuilder
+Cylinder, 15, 0.04, 0.04, 0.25,
+Translate, 0.45, 3.626, 3.05,
+SetColor,135,44,34,
+
+CreateMeshBuilder
+Cylinder, 15, 0.04, 0.04, 0.25,
+Translate, -0.45, 3.626, 4.65,
+SetColor,135,44,34,
+
+CreateMeshBuilder
+Cylinder, 15, 0.04, 0.04, 0.25,
+Translate, 0.45, 3.626, 4.65,
+SetColor,135,44,34,
+
+CreateMeshBuilder,
+AddVertex, -0.45, 3.75, 4.65,0,1,0
+AddVertex, -0.45, 3.75, 3.05,0,1,0
+AddVertex,  0.45, 3.75, 3.05,0,1,0
+AddVertex,  0.45, 3.75, 4.65,0,1,0
+AddVertex, -0.45, 3.85, 4.65,0,1,0
+AddVertex, -0.45, 3.85, 3.05,0,1,0
+AddVertex,  0.45, 3.85, 3.05,0,1,0
+AddVertex,  0.45, 3.85, 4.65,0,1,0
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,135,44,34,
+
+CreateMeshBuilder,
+AddVertex, -0.03, 3.60, 4.5,0,1,0
+AddVertex, -0.03, 3.60, 4.35,0,1,0
+AddVertex,  0.03, 3.60, 4.35,0,1,0
+AddVertex,  0.03, 3.60, 4.5,0,1,0
+AddVertex, -0.03, 4.35, 3.35,0,1,0
+AddVertex, -0.03, 4.35, 3.2,0,1,0
+AddVertex,  0.03, 4.35, 3.2,0,1,0
+AddVertex,  0.03, 4.35, 3.35,0,1,0
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,135,44,34,
+
+
+CreateMeshBuilder,
+AddVertex, -0.02, 3.60, 3.55,0,1,0
+AddVertex, -0.02, 3.60, 3.50,0,1,0
+AddVertex,  0.02, 3.60, 3.50,0,1,0
+AddVertex,  0.02, 3.60, 3.55,0,1,0
+AddVertex, -0.02, 4.22, 3.20,0,1,0
+AddVertex, -0.02, 4.22, 3.15,0,1,0
+AddVertex,  0.02, 4.22, 3.15,0,1,0
+AddVertex,  0.02, 4.22, 3.20,0,1,0
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,140,63,65,
+CreateMeshBuilder,
+AddVertex, -0.1, 4.30, 3.30,
+AddVertex, -0.1, 4.30, 3.2,
+AddVertex,  0.1, 4.30, 3.2,
+AddVertex,  0.1, 4.30, 3.30,
+AddVertex, -0.1, 4.40, 3.30,
+AddVertex, -0.1, 4.40, 3.25,
+AddVertex,  0.1, 4.40, 3.25,
+AddVertex,  0.1, 4.40, 3.30,
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,135,44,34,
+
+CreateMeshBuilder,
+AddVertex, -0.03, 4.30, 3.30,0,1,0
+AddVertex, -0.03, 4.30, 3.20,0,1,0
+AddVertex,  0.03, 4.30, 3.20,0,1,0
+AddVertex,  0.03, 4.30, 3.30,0,1,0
+AddVertex, -0.03, 4.22, 3.20,0,1,0
+AddVertex, -0.03, 4.22, 3.15,0,1,0
+AddVertex,  0.03, 4.22, 3.15,0,1,0
+AddVertex,  0.03, 4.22, 3.20,0,1,0
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,135,44,34,
+
+CreateMeshBuilder,
+AddVertex, 0.05, 5.10, 4.5,0,1,0
+AddVertex, 0.05, 5.10, 4.45,0,1,0
+AddVertex, 0.10, 5.10, 4.45,0,1,0
+AddVertex, 0.10, 5.10, 4.5,0,1,0
+AddVertex, 0.05, 4.35, 3.35,0,1,0
+AddVertex, 0.05, 4.35, 3.30,0,1,0
+AddVertex, 0.10, 4.35, 3.30,0,1,0
+AddVertex, 0.10, 4.35, 3.35,0,1,0
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,135,44,34,
+
+CreateMeshBuilder,
+AddVertex, -0.05, 5.10, 4.5,0,1,0
+AddVertex, -0.05, 5.10, 4.45,0,1,0
+AddVertex, -0.10, 5.10, 4.45,0,1,0
+AddVertex, -0.10, 5.10, 4.5,0,1,0
+AddVertex, -0.05, 4.35, 3.35,0,1,0
+AddVertex, -0.05, 4.35, 3.30,0,1,0
+AddVertex, -0.10, 4.35, 3.30,0,1,0
+AddVertex, -0.10, 4.35, 3.35,0,1,0
+AddFace2,0, 1, 5, 4,
+AddFace2,1, 2, 6, 5,
+AddFace2,2, 3, 7, 6,
+SetColor,135,44,34,
+
+; 集電弓接觸面 ,
+
+CreateMeshBuilder
+Cylinder, 15, 0.01, 0.01, 1.1,
+Translate, 5.1, 0, 4.49,
+Rotate,0,0,1,90
+SetColor,65,65,65,
+
+CreateMeshBuilder
+Cylinder, 15, 0.01, 0.01, 0.35,
+Translate, 4.4475, -2.384, 4.49,
+Rotate,0,0,1,126
+SetColor,65,65,65,
+
+CreateMeshBuilder
+Cylinder, 15, 0.01, 0.01, 0.35,
+Translate, 4.448, 2.383, 4.491,
+Rotate,0,0,1,54
+SetColor,65,65,65,
+
+CreateMeshBuilder,
+AddVertex,-0.55, 5.07, 4.44,0,1,0
+AddVertex,-0.55, 5.10, 4.44,0,1,0
+AddVertex, 0.55, 5.10, 4.44,0,1,0
+AddVertex, 0.55, 5.07, 4.44,0,1,0
+;AddFace2,0, 1, 2, 3,
+GenerateNormals,
+SetColor,30,30,30,
+
+
+TranslateAll,0,-0.09,-9
+RotateAll,0,1,0,180

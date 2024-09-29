@@ -1,0 +1,118 @@
+
+
+CreateMeshBuilder,
+AddVertex,-1.355,  2.87, 0.15,
+AddVertex,-1.355,  2.87, 1.05,
+AddVertex,-1.315, 2.87, 1.05,
+AddVertex,-1.315, 2.87, 0.15,
+AddFace2,0, 1, 2, 3,
+SetColor,0,0,0
+
+
+CreateMeshBuilder,
+AddVertex,-1.355, 2.80, 0.15,
+AddVertex,-1.355, 2.80, 1.05,
+AddVertex,-1.315, 2.80, 1.05,
+AddVertex,-1.315, 2.80, 0.15,
+AddFace2,0, 1, 2, 3,
+SetColor,0,0,0
+
+
+CreateMeshBuilder,
+AddVertex,-1.355, 1.74, 0.15,
+AddVertex,-1.355, 1.74, 1.05,
+AddVertex,-1.315, 1.74, 1.05,
+AddVertex,-1.315, 1.74, 0.15,
+AddFace2,0, 1, 2, 3,
+SetColor,0,0,0
+
+
+CreateMeshBuilder,
+AddVertex,-1.355,  1.74, -0.61,
+AddVertex,-1.355,  2.83, -0.61,
+AddVertex, -1.313,2.83, -0.61,
+AddVertex, -1.313,1.74, -0.61,
+AddFace2,0, 1, 2, 3,
+SetColor,0,0,0
+translate,0,0,0.978
+
+
+CreateMeshBuilder,
+AddVertex,-1.355, 1.77, -0.129,
+AddVertex,-1.355, 2.83, -0.129,
+AddVertex, -1.313, 2.83, -0.129,
+AddVertex, -1.313, 1.77, -0.129,
+AddFace2,0, 1, 2, 3,
+SetColor,0,0,0
+translate,0,-0.03,0.95
+
+
+CreateMeshBuilder,
+AddVertex,-1.355, 0.83, -0.129,
+AddVertex,-1.355, 2.90, -0.129,
+AddVertex, -1.313, 2.90, -0.129,
+AddVertex, -1.313, 0.83, -0.129,
+AddFace2,0, 1, 2, 3,
+SetColor,0,0,0
+translate,0,-0.03,1.18
+
+
+CreateMeshBuilder,
+AddVertex,-1.355, 0.83, -0.129,
+AddVertex,-1.355, 2.90, -0.129,
+AddVertex, -1.313, 2.90, -0.129,
+AddVertex, -1.313, 0.83, -0.129,
+AddFace2,0, 1, 2, 3,
+SetColor,0,0,0
+translate,0,-0.03,0.28
+
+CreateMeshBuilder,
+AddVertex,-1.355, 0.8, 1.05,0,1,0
+AddVertex,-1.355, 2.87, 1.05,0,1,0
+AddVertex,-1.355, 2.87, 0.15,0,1,0
+AddVertex,-1.355, 0.8, 0.15,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,door_wc.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255
+
+CreateMeshBuilder,
+AddVertex,-1.314, 0.8, 0.15,
+AddVertex,-1.314, 2.87, 0.15,
+AddVertex,-1.314, 2.87, 1.05
+AddVertex,-1.314, 0.8, 1.05
+AddFace2,0,1,2,3
+GenerateNormals,
+SetEmissiveColor, 255, 255, 255
+LoadTexture,doorr.bmp
+SetTextureCoordinates,0,0,1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,1,
+SetDecalTransparentColor,255,255,255
+
+
+
+CreateMeshBuilder,
+AddVertex,1.296, 0.9, 2.3,
+AddVertex,1.296, 2.87, 2.3,
+AddVertex,1.296, 2.87, 3
+AddVertex,1.296, 0.9, 3
+AddFace,3,2,1,0
+SetColor, 80, 45, 20, 150
+translate,-2.65,0,-2
+
+CreateMeshBuilder,
+AddVertex,1.335, 0.90, 3,
+AddVertex,1.335, 2.87, 3,
+AddVertex,1.335, 2.87, 2.3,
+AddVertex,1.335, 0.90, 2.3,
+AddFace,3,2,1,0
+SetColor, 75, 40, 15, 100
+translate,-2.65,0,-2
+
+

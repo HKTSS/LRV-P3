@@ -1,0 +1,83 @@
+CreateMeshBuilder,
+AddVertex,-0.479 ,  2.0865, -0.592 ,0,1,0
+AddVertex,-0.415,  2.0865 , -0.592 ,0,1,0
+AddVertex,-0.415 ,  2.0379 , -0.642 ,0,1,0
+AddVertex,-0.479 ,  2.0379 , -0.642 ,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,voltage.bmp
+SetTextureCoordinates,0,0.06,-1,
+SetTextureCoordinates,1,0.06,0,
+SetTextureCoordinates,2,1,0
+SetTextureCoordinates,3,1,-1,
+SetDecalTransparentColor,0,0,0,
+Rotate,0,1,0,180
+translate,0,-0.035,-10.3835
+
+CreateMeshBuilder,
+AddVertex,-0.479 ,  2.0915, -0.597 ,0,1,0
+AddVertex,-0.479,  2.086 , -0.592 ,0,1,0
+AddVertex,-0.479 ,  2.0371 , -0.642 ,0,1,0
+AddVertex,-0.479 ,  2.0425 , -0.646 ,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,voltage.bmp
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0.06,0
+SetTextureCoordinates,3,0.06,-1,
+SetDecalTransparentColor,0,0,0,
+Rotate,0,1,0,180
+translate,0,-0.035,-10.3835
+
+CreateMeshBuilder,
+AddVertex,-0.415 ,  2.0915, -0.597 ,0,1,0
+AddVertex,-0.415,  2.086 , -0.592 ,0,1,0
+AddVertex,-0.415 ,  2.0371 , -0.642 ,0,1,0
+AddVertex,-0.415 ,  2.0425 , -0.646 ,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,voltage.bmp
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0.06,0
+SetTextureCoordinates,3,0.06,-1,
+SetDecalTransparentColor,0,0,0,
+Rotate,0,1,0,180
+translate,0,-0.035,-10.3835
+
+CreateMeshBuilder,
+AddVertex,-0.479 ,  2.0865, -0.592 ,0,1,0
+AddVertex,-0.415,  2.0865 , -0.592 ,0,1,0
+AddVertex,-0.415 ,  2.091 , -0.596 ,0,1,0
+AddVertex,-0.479 ,  2.091 , -0.596 ,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,voltage.bmp
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0.06,0
+SetTextureCoordinates,3,0.06,-1,
+SetDecalTransparentColor,0,0,0,
+Rotate,0,1,0,180
+translate,0,-0.0353,-10.38348
+
+CreateMeshBuilder,
+AddVertex,-0.479 ,  2.0865, -0.591 ,0,1,0
+AddVertex,-0.415,  2.0865 , -0.591 ,0,1,0
+AddVertex,-0.415 ,  2.0915 , -0.5955 ,0,1,0
+AddVertex,-0.479 ,  2.0915 , -0.5955 ,0,1,0
+AddFace2,0, 1, 2, 3,
+GenerateNormals,
+LoadTexture,voltage.bmp
+SetTextureCoordinates,0,0,-1,
+SetTextureCoordinates,1,0,0,
+SetTextureCoordinates,2,0.06,0
+SetTextureCoordinates,3,0.06,-1,
+SetDecalTransparentColor,0,0,0,
+Rotate,0,1,0,180
+translate,0,-0.084,-10.333
+
+
+RotateAll,0,1,0,180
+
